@@ -7,7 +7,7 @@ def test_our_first_test() -> None:
 def test_should_be_skipped() -> None:
     assert 1 == 2
 
-@pytest.mark.skipif(4>1, reason="4 more than 1, so i skipped")
+@pytest.mark.skipif(4 > 1, reason="4 more than 1, so i skipped")
 def test_should_be_skipped_if() -> None:
     assert 1 == 2
 
